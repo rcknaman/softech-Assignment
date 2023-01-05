@@ -27,12 +27,40 @@
 .App-link {
   color: #61dafb;
 }
+#news-cont{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.news-item{
+  text-align: left;
+  padding:10px
+}
+.highGreen{
+  color: #2EA46C;
+  text-decoration: none;
+}
+.highGreen:hover{
+  color: #2EA46C;
+}
 
+.highBlue{
+  color: #619CD1;
+  text-decoration: none;
+}
+.highBlue:hover{
+  color: #619CD1;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width:400px) {
+  #news-cont{
+    margin-left: 0;
+    margin-right: 0;
   }
 }
